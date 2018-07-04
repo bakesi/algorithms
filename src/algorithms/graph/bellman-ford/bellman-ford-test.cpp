@@ -1,6 +1,6 @@
 #include <map>
 #include <vector>
-#include "dijkstra.cpp"
+#include "bellman-ford.cpp"
 
 using namespace std;
 
@@ -24,6 +24,6 @@ int main()
          {{'E', 'D'}, 9}});
 
     G.search('A');
-    G.search('B', 'C');
+    G.search('B');
     return 0;
 }
